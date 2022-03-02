@@ -2,9 +2,9 @@
   "name": "aws-demo-app",
   "version": "1.0.0",
   "scripts": {
-    "build":  "react-scripts build"
+    "build":  "react-scripts build",
     "start": "react-scripts start"
-   },
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
