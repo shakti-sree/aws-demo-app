@@ -1,15 +1,19 @@
 {
   "name": "aws-demo-app",
   "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "build":  "react-scripts build",
-    "start": "react-scripts start"
+    "build": "parcel build public/index.html",
+    "start": "parcel public/index.html"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [],
+  "author": "Noble Obioma",
+  "license": "MIT",
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
-  }
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {},
+  "description": ""
 }
